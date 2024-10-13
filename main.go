@@ -18,7 +18,7 @@ func doRespond(c *gin.Context) {
 	resp := `
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Play digits="wwww999wwwwwwww"/>
+    <Play digits="wwww9w9w9wwwwwwww"/>
     <Hangup/>
 </Response>
 	`
