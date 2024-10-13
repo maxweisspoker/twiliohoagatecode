@@ -18,7 +18,7 @@ func doRespond(c *gin.Context) {
 	resp := `
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Play digits="wwwwwwwwwwww9ww9ww9wwwwwwwwwwwwwwwwwwwwwwww"/>
+    <Play digits="wwww999wwwwwwww"/>
     <Hangup/>
 </Response>
 	`
@@ -35,4 +35,3 @@ func doRespond2(c *gin.Context) {
 	`
 	c.Data(200, "text/xml", []byte(strings.TrimSpace(resp)+"\n"))
 }
-
